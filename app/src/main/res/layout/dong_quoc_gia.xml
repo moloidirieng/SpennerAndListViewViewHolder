@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHinh"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/aud" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:paddingLeft="3dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvToaDo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tọa độ"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F5918B" />
+
+</LinearLayout>
